@@ -1,0 +1,26 @@
+# Ignorar archivos y carpetas generados por entornos virtuales
+venv/
+env/
+
+# Ignorar archivos de configuración local
+*.sqlite3
+*.pyc
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos y carpetas generados por herramientas de desarrollo
+__pycache__/
+.mypy_cache/
+.coverage
+
+# Ignorar archivos y carpetas específicos de Django
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+__pycache__
+local_settings.py
+
+# Ignorar archivos específicos de Flask
+instance/
